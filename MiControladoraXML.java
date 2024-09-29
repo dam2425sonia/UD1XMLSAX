@@ -11,6 +11,7 @@ public class MiControladoraXML extends DefaultHandler{
     //que es una clase por defecto que implementa la interfaz ContentHandler. 
     //Esto permite sobrescribir solo los métodos que necesitamos.
     //En este caso, los métodos sobrescritos son startDocument(), startElement(), y characters().
+    //Pero podriamos sobreescribir también los métodos endDocument() y endElement()
     @Override
     public void startDocument() throws SAXException{
         super.startDocument();
